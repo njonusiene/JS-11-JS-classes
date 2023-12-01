@@ -15,11 +15,20 @@ body {
 
 h1 {
     color: #8ADAB2;
+    text-decoration: underline #FFF5C2;
     transition: 0.3s;
 }
 
 h1:hover{
     color: #FFF5C2;
+    text-decoration: underline #8ADAB2;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #FFF5C2 ;
+  padding-top: 15px;
 }
 
 .ball {
